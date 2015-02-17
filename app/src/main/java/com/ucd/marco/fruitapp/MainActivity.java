@@ -17,12 +17,12 @@ public class MainActivity extends Activity {
     public final static String EXTRA_FRUIT_NAME = "com.ucd.marco.fruitapp.FRUIT_NAME";
     private Random random = new Random();
     private ListView list;
-    private String[] fruits = {
+    private static String[] fruits = {
             "Kiwi",
             "Dragon",
             "Banana"
     } ;
-    private Integer[] imageId = {
+    private static Integer[] imageId = {
             R.drawable.kiwi,
             R.drawable.dragon,
             R.drawable.banana
@@ -57,9 +57,9 @@ public class MainActivity extends Activity {
    private static Map<String,String[]> fruitFacts = new HashMap<String,String[]>();
     static {
         Map<String,String[]> tempFruitFacts = new HashMap<String,String[]>();
-        tempFruitFacts.put("Kiwi", kiwiFacts);
-        tempFruitFacts.put("Dragon", dragonFacts);
-        tempFruitFacts.put("Banana", bananaFacts);
+        tempFruitFacts.put(fruits[0], kiwiFacts);
+        tempFruitFacts.put(fruits[1], dragonFacts);
+        tempFruitFacts.put(fruits[2], bananaFacts);
         fruitFacts = Collections.unmodifiableMap(Collections.unmodifiableMap(tempFruitFacts));
     }
 

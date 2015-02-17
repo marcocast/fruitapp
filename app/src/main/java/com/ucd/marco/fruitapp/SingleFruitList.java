@@ -7,12 +7,14 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 public class SingleFruitList extends ArrayAdapter<String> {
+
     private final Activity context;
     private final String[] fruits;
     private final Integer[] imageId;
-    public SingleFruitList(Activity context,
-                           String[] fruits, Integer[] imageId) {
+
+    public SingleFruitList(Activity context, String[] fruits, Integer[] imageId) {
         super(context, R.layout.list_single_fruit, fruits);
         this.context = context;
         this.fruits = fruits;
