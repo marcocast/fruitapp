@@ -20,6 +20,12 @@
             android:name=".FruitDetailsActivity"
             android:label="@string/title_activity_fruit_details" >
         </activity>
+
+        <service
+            android:name=".SingleFruitList"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
     </application>
 
 </manifest>
