@@ -6,4 +6,42 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_fruit_details">FruitDetailsActivity</string>
 
+    <string-array name="fruits">
+        <item>Kiwi</item>
+        <item>Dragon</item>
+        <item>Banana</item>
+    </string-array>
+
+
+    <string-array name="kiwi_facts">
+        <item>Kiwifruit has also been considered a nutritional all-star</item>
+        <item>kiwifruit has the best nutrient density of 21 commonly consumed fruits</item>
+        <item>If you want clean energy, think of kiwifruit because they’re rich in magnesium</item>
+        <item>Kiwifruit has been growing in New Zealand for over 100 years</item>
+        <item>At first, kiwis were referred to as Yang Tao or Chinese Gooseberry</item>
+
+    </string-array>
+
+    <string-array name="dragon_facts">
+        <item>To choose a ripe dragon fruit: look for bright, even-colored skin</item>
+        <item>Dragon fruit is loaded with beneficial antioxidant</item>
+        <item>Dragon fruit is also called Pitaya</item>
+        <item>Dragon fruit does have a small amount of fats because there are so many seeds in the edible part of the fruit.</item>
+
+    </string-array>
+
+    <string-array name="banana_facts">
+        <item>Bananas are the fruit produced by various banana plants</item>
+        <item>When rip they are usually long and curved with a soft inside covered by a yellow skin (peel)</item>
+        <item>Bananas can be found in other colors, including red</item>
+        <item>Banana plants are not trees, they are a type of herb</item>
+        <item>Bananas have high nutritional value and are a healthy snack</item>
+        <item>Humans have grown bananas for thousands of years</item>
+
+    </string-array>
+
+
 </resources>
+
+
+

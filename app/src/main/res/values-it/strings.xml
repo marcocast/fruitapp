@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FruitApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="fruits">
+        <item>Kiwi</item>
+        <item>Dragon</item>
+        <item>Banana</item>
+    </string-array>
+
+
+    <string-array name="kiwi_facts">
+        <item>Kiwi è stato anche considerato un nutrizionale all-star</item>
+        <item>kiwi ha la migliore densità di nutrienti di 21 frutti comunemente consumati</item>
+        <item>Se volete lenergia pulita, pensare di kiwi perché sono ricchi di magnesio</item>
+        <item>Kiwi è cresciuta in Nuova Zelanda per oltre 100 anni</item>
+        <item>In un primo momento, kiwi sono stati indicati come Yang Tao o Gooseberry cinese</item>
+
+    </string-array>
+
+    <string-array name="dragon_facts">
+        <item>Per scegliere un drago frutta matura: cerca brillante, la pelle anche di colore</item>
+        <item>Dragon fruit è caricato con antiossidanti benefiche</item>
+        <item>Dragon fruit è anche chiamato Pitaya</item>
+        <item>Frutta del drago ha una piccola quantità di grassi, perché ci sono così tanti semi nella parte commestibile del frutto.</item>
+
+    </string-array>
+
+    <string-array name="banana_facts">
+        <item>Le banane sono il frutto prodotto da varie piante di banane</item>
+        <item>Quando rip solito sono lunghe e curve con un morbido coperto da una pelle di colore giallo (buccia)</item>
+        <item>Le banane possono essere trovati in altri colori, tra cui rosso</item>
+        <item>Piante di banane non sono alberi, sono un tipo di erba</item>
+        <item>Le banane hanno un alto valore nutrizionale e sono uno spuntino sano</item>
+        <item>Gli esseri umani sono cresciute banane per migliaia di anni</item>
+
+    </string-array>
+
+</resources>
+

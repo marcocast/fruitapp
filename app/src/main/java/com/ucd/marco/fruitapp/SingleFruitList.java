@@ -23,7 +23,7 @@ public class SingleFruitList extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
-        View rowView= inflater.inflate(R.layout.list_single_fruit, null, true);
+        View rowView= inflater.inflate(R.layout.list_single_fruit, null, false);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.img);
         imageView.setImageResource(imageId[position]);
         return rowView;

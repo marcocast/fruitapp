@@ -20,9 +20,13 @@ public class FruitDetailsActivity extends ActionBarActivity {
 
         final TextView textFruit = (TextView)findViewById(R.id.textFruit);
 
+        final TextView textFruitFirstLetter = (TextView)findViewById(R.id.textFruitFirstLetter);
 
+        textFruitFirstLetter.setText(intent.getStringExtra(MainActivity.EXTRA_FRUIT_NAME).substring(0,1));
 
-        textFruit.setText(intent.getStringExtra(MainActivity.EXTRA_FRUIT_NAME));
+        textFruitFirstLetter.setTextSize(30 sp);
+
+        textFruit.setText(intent.getStringExtra(MainActivity.EXTRA_FRUIT_NAME).substring(1));
 
         ImageView img = (ImageView) findViewById(R.id.imageFruit);
 
