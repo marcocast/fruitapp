@@ -3,6 +3,7 @@ package com.ucd.marco.fruitapp;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -24,7 +25,7 @@ public class FruitDetailsActivity extends ActionBarActivity {
 
         textFruitFirstLetter.setText(intent.getStringExtra(MainActivity.EXTRA_FRUIT_NAME).substring(0,1));
 
-        textFruitFirstLetter.setTextSize(30 sp);
+        textFruitFirstLetter.setTextSize(TypedValue.COMPLEX_UNIT_SP,150);
 
         textFruit.setText(intent.getStringExtra(MainActivity.EXTRA_FRUIT_NAME).substring(1));
 
