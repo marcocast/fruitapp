@@ -14,6 +14,7 @@ public class SingleFruitList extends ArrayAdapter<String> {
     private final String[] fruits;
     private final Integer[] imageId;
 
+
     public SingleFruitList(Activity context, String[] fruits, Integer[] imageId) {
         super(context, R.layout.list_single_fruit, fruits);
         this.context = context;

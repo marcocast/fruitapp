@@ -2,6 +2,7 @@ package com.ucd.marco.fruitapp;
         import android.content.Intent;
         import android.content.res.Resources;
         import android.os.Bundle;
+        import android.view.Menu;
         import android.view.View;
         import android.widget.AdapterView;
         import android.widget.ListView;
@@ -63,5 +64,12 @@ public class MainActivity extends Activity {
 
         int randomIndex = new Random().nextInt(facts.length);
         return facts[randomIndex];
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
 }
